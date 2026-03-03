@@ -1,0 +1,14 @@
+$fontColor: #ffb6b6
+$fontColor2: #89ca79
+
+.block1
+    color: $fontColor
+    .block2
+        color: $fontColor2
+
+@for $i from 1 through 10 //for迴圈10圈，變數$i
+    $size: 10 + $i * 2 
+    .fz-#{$size} //產生 .fz- 開頭的類別
+        font-size: #{$size}px
+        //類別內容font-size，值是迴圈變數$i
+        //用#{}來顯示變數
