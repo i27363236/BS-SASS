@@ -1,8 +1,12 @@
 .block1 {
   color: #ffb6b6;
+  width: 100px;
+  height: 100px;
 }
 .block1 .block2 {
   color: #89ca79;
+  width: 100px;
+  height: 100px;
 }
 
 .fz-12 {
