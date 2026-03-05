@@ -12,7 +12,7 @@ body::after {
     content: "SM";
   }
 }
-@media (min-width: 768px) {
+@media (576px <= width <= 768px) {
   body::after {
     content: "MD";
   }
